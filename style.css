@@ -1,0 +1,331 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed";
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Amatic SC", Times, serif;
+    padding-top: 200px;
+}
+
+body {
+    background-color: #f1f1f18f;
+}
+
+.btn-success {
+    margin-bottom: 20px;
+}
+
+#price1 {
+    font-weight: bold;
+    color: rgb(5, 119, 5);
+    font-size: smaller;
+}
+
+#cardprice {
+    background-color: black;
+}
+
+.dangky {
+    background-color: #f1f1f18f;
+}
+
+#buttonSignUp {
+    background-color: black;
+    color: white;
+}
+
+#buttonCreateCard {
+    background-color: black;
+    color: white;
+}
+
+.Sign-up-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 450px;
+    border-radius: 16px;
+}
+
+.forgot-card {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 500px;
+}
+
+.Login-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 450px;
+    border-radius: 16px;
+}
+
+#card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#fgp {
+    margin-top: 50px;
+}
+
+.card-body {
+    margin-top: 50px;
+}
+
+.card-login {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 360px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 16px;
+}
+
+#headerlogin {
+    text-align: center;
+}
+
+.create-cards {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+}
+
+#headerlogin1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#headerlogin2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#name {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#listitem {
+    box-shadow: 0 8px 16px 0 #00000033;
+    border: collapse;
+}
+
+#appprofile {
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+}
+
+.header {
+    background-color: #333;
+    border-radius: 16px 16px 0 0;
+    padding: 20px 35px 20px 35px;
+    color: white;
+}
+
+.input {
+    padding: 30px 35px 30px 35px;
+}
+
+.input input[type=text] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 20px;
+}
+
+.input input[type=password] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+
+.input input[type=email] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-bottom: 10px;
+}
+
+.input input[type=submit] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.input input[type=submit]:hover {
+    background-color: #111;
+}
+
+.list-group {
+    text-align: center;
+}
+
+.search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    width: 250px;
+}
+
+#newappfree {
+    background-color: #212529;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#newappfree:hover {
+    color: rgb(211, 211, 211);
+}
+
+#topappfree {
+    background-color: #212529;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+#topappfree:hover {
+    color: rgb(211, 211, 211);
+}
+
+#login {
+    color: #c9ff05;
+    border: #c9ff05 2px solid;
+    width: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#login:hover {
+    background-color: #c9ff05;
+    color: #111;
+}
+
+#signup {
+    color: #004cff;
+    border: #004cff 2px solid;
+    width: 78px;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 4px;
+}
+
+#signup:hover {
+    background-color: #004cff;
+    color: #111;
+}
+
+#ava {
+    max-width: 50px;
+    size: 12px;
+    /* margin: -1px; */
+    padding: 9px 10px;
+}
+
+#Dropdown1 {
+    text-align: center;
+    padding: 17px 15px;
+}
+
+#logout {
+    padding: 15px 15px;
+}
+
+#img-viewmore {
+    width: 150px;
+    height: 150px;
+}
+
+.item {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 16px black;
+    box-shadow: 4px 8px 15px 2px rgba(0, 0, 0, 0.2);
+    height: 230px;
+}
+
+#text-title {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#userprofile {
+    border-radius: 20px;
+    border: 1px collapse black;
+}
+
+#savebutton {
+    padding: 3px 3px;
+    background-color: black;
+    color: white;
+}
+
+.Change-card {
+    border: 1px collapse black;
+    box-shadow: 0 8px 16px 0 #00000033;
+    transition: 0.3s;
+    width: 600px;
+    border-radius: 16px;
+}
+
+#status {
+    width: 75%;
+    margin: auto;
+}
+
+#buttonlogin1 {
+    width: 365px;
+    background-color: black;
+    margin: auto;
+    color: white;
+    box-sizing: border-box;
+}
+
+.noaccount {
+    text-align: center;
+    opacity: 50%;
+}
+
+#signupbutton1 {
+    background-color: rgb(80, 70, 70);
+    color: white;
+}
+
+#signupbutton1:hover {
+    background-color: gray;
+    color: white;
+}
+
+#buttonchange1 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+#buttonchange1:hover {
+    background-color: white;
+    color: black;
+}
